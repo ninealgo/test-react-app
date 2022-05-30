@@ -8,7 +8,8 @@ export default function Header(props) {
                 <ul>
                     <li>
                         <Link to={"/"}>Home Page</Link></li>
-                    <li><Link to={"/todos"}>Todo Page</Link></li>
+                    <li><Link to={"/users"}>Users</Link></li>
+                    <li><Link to={"/users/add"}>Add User</Link></li>
                 </ul>
             </nav>
         </div>

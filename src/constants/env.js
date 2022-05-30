@@ -1,1 +1,2 @@
 export const REACT_APP_PROJECT_NAME = process.env.REACT_APP_PROJECT_NAME;
+export const REACT_APP_BASE_APIPATH = process.env.REACT_APP_BASE_APIPATH;
