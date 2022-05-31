@@ -7,15 +7,9 @@
       "age": 30
     },
     {
-      "id": 2,
-      "name": "Mohit Singh",
-      "email": "mohit@ninealgo.com",
-      "age": 23
-    },
-    {
-      "name": "Shubham",
-      "email": "shubham@ninealgo.com",
       "age": 23,
+      "email": "shubham@ninealgo.com",
+      "name": "Shubham",
       "id": 3
     },
     {
@@ -23,42 +17,6 @@
       "email": "janli@ninealgo.com",
       "age": 22,
       "id": 4
-    },
-    {
-      "age": 30,
-      "email": "rahul@ninealgo.com",
-      "name": "Rahul",
-      "id": 5
-    },
-    {
-      "age": 18,
-      "email": "sugar@ninealgo.com",
-      "name": "Sugar",
-      "id": 6
-    },
-    {
-      "age": 29,
-      "email": "ritu@ninealgo.com",
-      "name": "Ritu",
-      "id": 7
-    },
-    {
-      "age": 30,
-      "email": "ashu@ninealgo.com",
-      "name": "Ashu",
-      "id": 8
-    },
-    {
-      "age": 28,
-      "email": "sonu@ninealgo.com",
-      "name": "Sonu",
-      "id": 9
-    },
-    {
-      "age": 25,
-      "email": "cheenu@ninealgo.com",
-      "name": "Cheenu",
-      "id": 10
     }
   ]
 }

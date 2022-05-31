@@ -15,6 +15,7 @@ export default function AppRoutes() {
                 <Route element={<TodoContainer />} path="/todos" />
                 <Route element={<UserContainer />} path="/users" />
                 <Route element={<UseraddContainer />} path="/users/add" />
+                <Route element={<UseraddContainer />} path="/users/edit/:userId" />
             </Routes>
         </BrowserRouter>
     );

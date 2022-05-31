@@ -16,3 +16,33 @@ export const userAddApi = (payload) => {
         payload
     });
 }
+
+export const userDeleteApi = (userId) => {
+    return Http({
+        method: httpVerbs.DELETE,
+        url: `${endpoint.userListUrl}/${userId}`
+    });
+}
+
+export const getSingleUserById = (userId) => {
+    return Http({
+        method: httpVerbs.GET,
+        url: `${endpoint.userListUrl}/${userId}`
+    });
+}
+
+export const userUpdateApi = (userId, payload) => {
+    return Http({
+        method: httpVerbs.PUT,
+        url: `${endpoint.userListUrl}/${userId}`,
+        payload
+    });
+}
+
+export const userUpdatePatchApi = (userId, payload) => {
+    return Http({
+        method: httpVerbs.PATCH,
+        url: `${endpoint.userListUrl}/${userId}`,
+        payload
+    });
+}
